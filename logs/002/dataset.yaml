@@ -1,0 +1,13 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./logs/002/yolo_train.txt 
+val: ./logs/002/yolo_test.txt  
+#test: ../coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 12
+
+# class names
+
+names: [ 'Blotchedfox', 'Longnose', 'Pyramid', 'Moorish', 'Racoon', 
+         'Blackback', 'Palette', 'Clownfish', 'YellowSurgeon', 'DoubleSaddle',
+         'Threadfin', 'Clowntrigger' ]
